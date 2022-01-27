@@ -1,0 +1,42 @@
+body{
+    background-image: url("");
+}
+
+
+#title{
+    height: 10vh;
+    width: 100%;
+    font-size: 50px;
+    background-color: lightgray;
+
+}
+
+#graphics{
+    height: 90vh;
+    width: 100%;
+}
+img{
+    height: 100vh;
+    width: 100%;
+
+}
+
+#links{
+    height: 20vh;
+
+}
+
+#mapD{
+    height: 80vh;
+}
+
+#text{
+    height: 40vh;
+    width: 100%;
+    text-indent: 5%
+}
+
+footer{
+    height: 20vh;
+    width: 100%;
+}
