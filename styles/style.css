@@ -1,18 +1,19 @@
-body{
-    background-image: url("");
+html, body {
+    margin:0;
+    padding:0;
+    height:100%;
 }
 
-
 #title{
-    height: 10vh;
+    height: 10%;
     width: 100%;
     font-size: 50px;
-    background-color: lightgray;
-
+    font-style: italic;
+    
 }
 
 #graphics{
-    height: 90vh;
+    height: 90%;
     width: 100%;
 }
 img{
@@ -22,21 +23,46 @@ img{
 }
 
 #links{
-    height: 20vh;
+    height: 20%;
+    padding-top: 90px;
+   
 
 }
 
 #mapD{
-    height: 80vh;
+    height: 80%;
 }
 
 #text{
-    height: 40vh;
+    height: 40%;
     width: 100%;
-    text-indent: 5%
+    text-indent: 5%;
+    
+
+}
+#github{
+    height: 30px;
+    width: 30px;
 }
 
 footer{
+    position:relative;
+    bottom:0;
+    
+    
     height: 20vh;
     width: 100%;
+}
+
+
+
+#lublin{
+    height:45px ;
+    width: 70px ;
+    
+}
+#warszawa{
+    height:45px ;
+    width: 70px ;
+  
 }

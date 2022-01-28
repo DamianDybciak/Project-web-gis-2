@@ -10,8 +10,10 @@ require([
     "esri/widgets/LayerList"
 ], (Map, SceneView,FeatureLayer,MapGallery,Expand,Search,Measurement,Legend,LayerList) =>{
     
-    
-    
+    let lublin = document.getElementById("lublin");
+
+    let warszawa = document.getElementById("warszawa");
+
     const popTemplate ={
         title:"Dane",
         content: "Nazwa: {NazwaPunkt} <br>Adres: {ADRES}<br> Miasto: {Miasto}<br> Kod pocztowy: {KodPocztow} <br> Lokalizacja: {Lokalizacj}"
@@ -88,6 +90,24 @@ require([
     });
     view.ui.add(expWg2,{position:"top-right"});
 
+    lublin.addEventListener("click", function(){
+
+        view.goTo({
+            center: [22.556149,51.248760,]
+          })
+
+    });
+
+
+
+    warszawa.addEventListener("click", function(){
+
+        view.goTo({
+            center: [21.002882,52.226054,]
+          })
+
+    });
+    
 
 
 
